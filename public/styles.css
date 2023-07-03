@@ -1,0 +1,60 @@
+.random-button {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.co{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.container{
+    text-align: center;
+}
+.typing{
+    width: 40ch;
+    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: brown;
+    }
+    @keyframes typing{
+        from {
+            width: 0;
+        }
+    }
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+        }
+    }
+
+@keyframes typing{
+    from {
+        width: 0;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+body{
+    background-image: url(../public/img/hinh-nen-gau-truc-panda-de-thuong-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding: 0;
+}
+*{
+    font-family: 'Pacifico', cursive;
+}

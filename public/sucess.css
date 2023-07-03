@@ -1,0 +1,28 @@
+.tienghan {
+    animation: move 2s infinite;
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  *{
+    font-family: 'Pacifico', cursive;
+  }
+  body{
+    background-image: url(../public/img/351137106_212982688245197_472248383138556127_n.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: right;
+  }
+  
